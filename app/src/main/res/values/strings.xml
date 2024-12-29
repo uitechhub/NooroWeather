@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NooroWeather</string>
+    <string name="degrees" translatable="false">°</string>
+    <string name="empty_view_subtitle">Please Search For A City</string>
+    <string name="empty_view_title">No City Selected</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="humidity">Humidity</string>
+    <string name="percent" translatable="false" formatted="false">%d\%%</string>
+    <string name="search_input_hint">Search Location</string>
+    <string name="temp_with_degrees_placeholder" translatable="false">%1$d°</string>
+    <string name="uv">UV</string>
+
+    <!-- Content descriptions  -->
+    <string name="location_icon_content_description">Location Icon</string>
+    <string name="search_icon_content_description">Search</string>
+    <string name="weather_icon_content_description">Weather Icon</string>
+    <string name="weather_condition_icon_content_description">Weather Condition Icon</string>
+</resources>
