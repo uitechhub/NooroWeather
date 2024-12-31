@@ -6,7 +6,6 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.dagger.hilt)
     alias(libs.plugins.kapt)
-    alias(libs.plugins.protobuf)
 }
 
 val apiKey: String = project.findProperty("API_KEY") as String? ?: ""
@@ -94,19 +93,4 @@ dependencies {
 
 kapt {
     correctErrorTypes = true
-}
-
-protobuf {
-    protoc {
-        artifact = "com.google.protobuf:protoc:3.21.12"
-    }
-    generateProtoTasks {
-        all().forEach { task ->
-            task.builtins {
-                create("java") {
-                    option("lite")
-                }
-            }
-        }
-    }
 }
